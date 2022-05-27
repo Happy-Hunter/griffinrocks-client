@@ -13,10 +13,22 @@
     transition: all 350ms ease;
     cursor: pointer;
     margin-bottom: 12px;
+    position: relative;
 }
 
 .gallery .pics:hover {
     filter: opacity(0.8);
+}
+
+.gallery .pics:hover .details {
+    display: block;
+}
+
+.gallery .details {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    /* display: none */
 }
 
 @media (max-width: 991px) {

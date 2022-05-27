@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Gallery from './Gallery';
+
 
 class BandPhotos extends Component {
     render() {
@@ -10,6 +10,6 @@ class BandPhotos extends Component {
     }
 }
 
-<Gallery />
 
-export default BandPhotos;
+
+export default BandPhotos; 
