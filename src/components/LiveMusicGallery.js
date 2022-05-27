@@ -322,7 +322,7 @@ let photos = [
                     <div className="pics" key={ index }>
                     <Link to ={ `/live-music/${friendlyId(photo)}` }>
                         <img src={photo.image} style={{ width: '100%'}} />
-                        <p className="details">{photo.musician} / {photo.band}</p>
+                        <p className="details">{ photo.band }</p>
                     </Link>
                     </div>
 
