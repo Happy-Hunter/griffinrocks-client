@@ -8,7 +8,7 @@ import photo2 from '../images/live/D3J_6794.jpg';
 import photo3 from '../images/live/james-mercer-the-shins.jpg';
 import photo4 from '../images/live/kendrick-lamar-kate-griffin.jpg';
 import photo5 from '../images/live/lorde-melbourne-festival-hall.JPG';
-import photo6 from '../images/live/missy-higgins-2007-the-palais.JPG';
+import photo40 from '../images/live/missy-higgins-2007-the-palais.JPG';
 import photo7 from '../images/live/kings-of-leon-2008-rod-laver-arena.jpg';
 import photo8 from '../images/live/keith-richards-rolling-stones.jpg';
 import photo9 from '../images/live/alison-mosshart-jack-white-the-dead-weather.jpg';
@@ -27,6 +27,7 @@ import photo21 from '../images/live/wayne-coyne-the-flaming-lips-melbourne.jpg';
 import photo22 from '../images/live/tim-de-laughter-the-polyphonic-spree.jpg';
 import photo23 from '../images/live/pelle-almqvist-the-hives.jpg';
 import photo24 from '../images/live/my-chemical-romance.jpg';
+import photo25 from '../images/live/drummer-violent-soho-mildura-ons-1040-1.jpeg';
 import photo26 from '../images/live/karen-o-yeah-yeah-yeahs.jpg';
 import photo27 from '../images/live/karen-o-yeah-yeah-yeahs-the-forum.jpg';
 import photo28 from '../images/live/hannah-hooper-grouplove.jpg';
@@ -36,12 +37,17 @@ import photo31 from '../images/live/damon-albarn-gorillaz-melbourne.jpg';
 import photo32 from '../images/live/gaz-coombes-supergrass.jpg';
 import photo33 from '../images/live/dave-grohl-foo-fighters-adelaide-2011.jpg';
 import photo34 from '../images/live/alison-mosshart-the-dead-weather.jpg';
-
+import photo35 from '../images/live/danananackroyd-melbourne.jpg';
+import photo36 from '../images/live/japandroids-netherlands.jpg';
+import photo37 from '../images/live/japandroids-netherlands-incubate-festival.jpg';
+import photo38 from '../images/live/the-men-band-netherlands.jpg';
+import photo39 from '../images/live/illy-mildura.jpg';
+import photo6 from '../images/live/lisa-mitchell.jpg';
 
 
 const LiveMusicGallery = () => {
 
-let photos = [
+    let livePhotos = [
     {
         id: 0,
         musician: "Taylor Hawkins",
@@ -84,10 +90,10 @@ let photos = [
     },
     {
         id: 5,
-        musician: "Missy Higgins",
+        musician: "Lisa Mitchell",
         band: "",
-        venue: "The Palais Theatre, Melbourne",
-        year: 2007,
+        venue: "Melbourne Town Hall, Melbourne",
+        year: 2012,
         image: photo6
     },
     {
@@ -240,6 +246,14 @@ let photos = [
         band: "Yeah Yeah Yeahs",
         venue: "The Forum, Melbourne",
         year: 2010,
+        image: photo25,
+    },
+    {
+        id: 25,
+        musician: "Michael Richards",
+        band: "Violent Soho",
+        venue: "Mildura",
+        year: 2011,
         image: photo26,
     },
     {
@@ -305,7 +319,55 @@ let photos = [
         venue: "The Forum",
         year: "2010",
         image: photo34,
+    },
+    {
+        id: 34,
+        musician: "Brian King",
+        band: "Japandroids",
+        venue: "Incubate Festival, Tilburg",
+        year: 2012,
+        image: photo36,
     }, 
+    {
+        id: 35,
+        musician: "Callum Gunn",
+        band: "Danananackroyd",
+        venue: "The East Brunswick Club, Melbourne",
+        year: 2011,
+        image: photo35,
+    }, 
+    {
+        id: 36,
+        musician: "Brian King",
+        band: "Japandroids",
+        venue: "Incubate Festival, Tilburg",
+        year: 2012,
+        image: photo37,
+    }, 
+    {
+        id: 37,
+        musician: "Nick Chiericozzi",
+        band: "The Men",
+        venue: "Incubate Festival, Tilburg",
+        year: 2012,
+        image: photo38,
+    }, 
+    {
+        id: 38,
+        musician: "Alasdair Murray",
+        band: "Illy",
+        venue: "Mildura",
+        year: 2014,
+        image: photo39,
+    },
+    {
+        id: 39,
+        musician: "Missy Higgins",
+        band: "",
+        venue: "The Palais Theatre, Melbourne",
+        year: 2007,
+        image: photo40,
+    },  
     ]
 
     const friendlyId = (p) => {
@@ -316,12 +378,12 @@ let photos = [
         <>
         
         <div className="gallery">
-            {photos.map((photo, index) => {
+            {livePhotos.map((photo, index) => {
                 return(
                     
                     <div className="pics" key={ index }>
                     <Link to ={ `/live-music/${friendlyId(photo)}` }>
-                        <img src={photo.image} style={{ width: '100%'}} />
+                        <img src={ photo.image } style={{ width: '100%' }} />
                         <p className="details">{ photo.band }</p>
                     </Link>
                     </div>
@@ -336,4 +398,3 @@ let photos = [
 }
 
 export default LiveMusicGallery;
-

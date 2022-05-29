@@ -9,8 +9,6 @@ class LiveMusic extends Component {
                 <LiveMusicGallery />   
             </div>
         )
-
-
     }
 }
 

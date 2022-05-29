@@ -28,7 +28,7 @@
     position: absolute;
     bottom: 0;
     background-color: white;
-    /* display: none */
+    display: none
 }
 
 @media (max-width: 991px) {

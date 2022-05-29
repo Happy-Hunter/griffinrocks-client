@@ -17,7 +17,7 @@ class Home extends Component {
     }
   }
 
-  render() {
+  function() {
     return(
       <div>
         Home

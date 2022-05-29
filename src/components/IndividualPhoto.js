@@ -1,11 +1,11 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-
+import livePhotos from 'LiveMusicGallery';
 
 const IndividualPhoto = (props) => {
   const params = useParams()
   const id = params.id.split('-')[0].toString();
-  console.log(id)
+
     return(
         <div>
          <div className="pics"> 
@@ -16,5 +16,5 @@ const IndividualPhoto = (props) => {
     )
 }
 
-
 export default IndividualPhoto
+
