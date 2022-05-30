@@ -11,6 +11,8 @@ import LiveMusic from './LiveMusic';
 import BandPhotos from './BandPhotos';
 import IndividualPhoto from './IndividualPhoto';
 
+import Header from './Header'
+
 
 class Home extends Component {
   constructor(props) {
@@ -22,6 +24,7 @@ class Home extends Component {
   render() {
     return(
       <div>
+      <Header />
       </div>
     )
   };
@@ -32,10 +35,7 @@ export default function App() {
   return (
     <Router>
       <div>
-        <Link to="/">Home</Link>
-        <Link to="/live-music">Live Music</Link>
-        <Link to="/band-photos">Band Photos</Link>
-
+      
         <Routes>
           <Route exact path="/" element={<Home />}/>
           <Route path="/live-music" element={<LiveMusic />}/>
