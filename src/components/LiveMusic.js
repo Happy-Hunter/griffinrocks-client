@@ -6,8 +6,9 @@ class LiveMusic extends Component {
     render() {
         return(
             <div>
-            <Header />
-            <LiveMusicGallery />   
+                <Header />
+                <h1>Live music photos by Kate Griffin</h1>
+                <LiveMusicGallery />   
             </div>
         )
     }

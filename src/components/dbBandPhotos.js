@@ -50,29 +50,28 @@ import photo49 from '../images/band/roulette-generation-band.jpg';
 import photo50 from '../images/band/rich-davies-devils-union-beach.jpg';
 import photo51 from '../images/band/red-tape-records.jpg';
 import photo52 from '../images/band/decrepit-sun-band.jpg';
-import photo53 from '../images/band/spun-rivals-2007.jpg';
-import photo54 from '../images/band/the-peep-tempel-video-clip-shoot-1.jpg';
-import photo55 from '../images/band/the-presets.jpg';
-import photo56 from '../images/band/spun-rivals-band.jpg';
-import photo57 from '../images/band/violent-sojo.jpg';
-import photo58 from '../images/band/johnny-rock-the-limits.jpg';
-import photo59 from '../images/band/snowman-band.jpg';
-import photo60 from '../images/band/rich-davies-devils-union.jpg';
-import photo61 from '../images/band/the-box-rockets-band.jpg';
-import photo62 from '../images/band/the-peep-tempel-footscray-market-1.jpg';
-import photo63 from '../images/band/the-human-electric-band.jpg';
-import photo64 from '../images/band/spun-rivals-recording.jpg';
-import photo65 from '../images/band/seagull-band.jpg';
-import photo66 from '../images/band/rich-davies.jpg';
-import photo67 from '../images/band/buckly-ward.jpg';
-import photo68 from '../images/band/emmy-bryce.jpg';
-import photo69 from '../images/band/edward-sharpe-magnetic-zeros-backstage.jpg';
-import photo70 from '../images/band/catgut-mary-band.jpg';
-import photo71 from '../images/band/decrepit-sun-band-in-the-studio.jpg';
-import photo75 from '../images/band/dr-dog-band.jpg';
-import photo72 from '../images/band/children-collide-2011.jpg';
-import photo73 from '../images/band/rich-davies-and-the-devils-union-2012.jpg';
-import photo74 from '../images/band/ball-park-music-2011.jpg';
+import photo53 from '../images/band/the-peep-tempel-video-clip-shoot-1.jpg';
+import photo54 from '../images/band/the-presets.jpg';
+import photo55 from '../images/band/spun-rivals-band.jpg';
+import photo56 from '../images/band/violent-sojo.jpg';
+import photo57 from '../images/band/johnny-rock-the-limits.jpg';
+import photo58 from '../images/band/snowman-band.jpg';
+import photo59 from '../images/band/rich-davies-devils-union.jpg';
+import photo60 from '../images/band/the-box-rockets-band.jpg';
+import photo61 from '../images/band/the-peep-tempel-footscray-market-1.jpg';
+import photo62 from '../images/band/the-human-electric-band.jpg';
+import photo63 from '../images/band/spun-rivals-recording.jpg';
+import photo64 from '../images/band/seagull-band.jpg';
+import photo65 from '../images/band/rich-davies.jpg';
+import photo66 from '../images/band/buckly-ward.jpg';
+import photo67 from '../images/band/emmy-bryce.jpg';
+import photo68 from '../images/band/edward-sharpe-magnetic-zeros-backstage.jpg';
+import photo69 from '../images/band/catgut-mary-band.jpg';
+import photo70 from '../images/band/decrepit-sun-band-in-the-studio.jpg';
+import photo71 from '../images/band/children-collide-2011.jpg';
+import photo72 from '../images/band/rich-davies-and-the-devils-union-2012.jpg';
+import photo73 from '../images/band/ball-park-music-2011.jpg';
+import photo74 from '../images/band/dr-dog-band.jpg';
 
     let bandPhotos = [
         {
@@ -441,164 +440,157 @@ import photo74 from '../images/band/ball-park-music-2011.jpg';
     },
     {
         id: 52,
-        musician: "Rich Davies, Clay Pegus & Matt Ryan",
-        band: "Spun Rivals",
-        year: 2007,
+        musician: "Blake Scott, Steve Carter & Stew Rayner",
+        band: "The Peep Tempel",
+        year: 2012,
         image: photo53,
     },
     {
         id: 53,
-        musician: "Blake Scott, Steve Carter & Stew Rayner",
-        band: "The Peep Tempel",
-        year: 2012,
+        musician: "Julian Hamilton & Kim Moyes",
+        band: "The Presets",
+        year: 2008,
         image: photo54,
     },
     {
         id: 54,
-        musician: "Julian Hamilton & Kim Moyes",
-        band: "The Presets",
-        year: 2008,
+        musician: "Rich Davies, Clay Pegus & Matt Ryan",
+        band: "Spun Rivals",
+        year: 2007,
         image: photo55,
     },
     {
         id: 55,
-        musician: "Rich Davies, Clay Pegus & Matt Ryan",
-        band: "Spun Rivals",
-        year: 2007,
+        musician: "Michael Richards",
+        band: "Violent Soho",
+        year: 2014,
         image: photo56,
     },
     {
         id: 56,
-        musician: "Michael Richards",
-        band: "Violent Soho",
-        year: 2014,
+        musician: "Johnny Rock",
+        band: "Johnny Rock & The Limits",
+        year: 2008,
         image: photo57,
     },
     {
         id: 57,
-        musician: "Johnny Rock",
-        band: "Johnny Rock & The Limits",
+        musician: "Joe McKee",
+        band: "Snowman",
         year: 2008,
         image: photo58,
     },
     {
         id: 58,
-        musician: "Joe McKee",
-        band: "Snowman",
-        year: 2008,
+        musician: "Rich Davies",
+        band: "Rich Davies & The Devils Union",
+        year: 2012,
         image: photo59,
     },
     {
         id: 59,
-        musician: "Rich Davies",
-        band: "Rich Davies & The Devils Union",
-        year: 2012,
+        musician: "Andrew Campbell, Luke Sabbadini, Stuart West, Pamela Zaharias",
+        band: "The Box Rockets",
+        year: 2010,
         image: photo60,
     },
     {
         id: 60,
-        musician: "Andrew Campbell, Luke Sabbadini, Stuart West, Pamela Zaharias",
-        band: "The Box Rockets",
-        year: 2010,
+        musician: "Blake Scott, Steve Carter, Stew Rayner",
+        band: "The Peep Tempel",
+        year: 2011,
         image: photo61,
     },
     {
         id: 61,
-        musician: "Blake Scott, Steve Carter, Stew Rayner",
-        band: "The Peep Tempel",
+        musician: "Dylan Snelling, Kurt Snelling, Ben Oborne, Prod Burgess",
+        band: "The Human Electric",
         year: 2011,
         image: photo62,
     },
     {
         id: 62,
-        musician: "Dylan Snelling, Kurt Snelling, Ben Oborne, Prod Burgess",
-        band: "The Human Electric",
-        year: 2011,
+        musician: "Steve Schram, Rich Davies, Clay Pegus & Matt Ryan",
+        band: "Spun Rivals & Steve Schram",
+        year: 2009,
         image: photo63,
     },
     {
         id: 63,
-        musician: "Steve Schram, Rich Davies, Clay Pegus & Matt Ryan",
-        band: "Spun Rivals & Steve Schram",
-        year: 2009,
+        musician: "Chris Bolton",
+        band: "Seagull",
+        year: 2008,
         image: photo64,
     },
     {
         id: 64,
-        musician: "Chris Bolton",
-        band: "Seagull",
-        year: 2008,
+        musician: "Rich Davies",
+        band: "Rich Davies",
+        year: 2010,
         image: photo65,
     },
     {
         id: 65,
-        musician: "Rich Davies",
-        band: "",
-        year: 2010,
+        musician: "Juzz, Jimmy, George, Ren & Tim",
+        band: "Buckly Ward",
+        year: 2008,
         image: photo66,
     },
     {
         id: 66,
-        musician: "Juzz, Jimmy, George, Ren & Tim",
-        band: "Buckly Ward",
+        musician: "Emma Flanagan",
+        band: "Emmy Bryce",
         year: 2008,
         image: photo67,
     },
     {
         id: 67,
-        musician: "Emma Flanagan",
-        band: "Emmy Bryce",
-        year: 2008,
+        musician: "Alexander Ebert, Nicolo Aglietti, Stewart Cole, Josh Collazo, Orpheo McCord, Christian Letts, Seth Ford-Young, Mark Noseworthy, Crash Richard, Mitchell Yoshida",
+        band: "Edward Sharpe & The Magnetic Zeros",
+        year: 2010,
         image: photo68,
     },
     {
         id: 68,
-        musician: "Alexander Ebert, Nicolo Aglietti, Stewart Cole, Josh Collazo, Orpheo McCord, Christian Letts, Seth Ford-Young, Mark Noseworthy, Crash Richard, Mitchell Yoshida",
-        band: "Edward Sharpe & The Magnetic Zeros",
-        year: 2010,
-        image: photo69,
-    },
-    {
-        id: 69,
         musician: "Kat Chish, Tim Bradtke, Owen Thomas, JP McMullan, Warren Fraser, Jimmy Pistra, Jason Block & Dave Wolfe",
         band: "Catgut Mary",
         year: 2008,
+        image: photo69,
+    }, 
+    {
+        id: 69,
+        musician: "Daniel Soutter, Owen Spratling, Matt Soutter, Chris Barnes",
+        band: "Decrepit Sun",
+        year: 2012,
         image: photo70,
     }, 
     {
         id: 70,
-        musician: "Daniel Soutter, Owen Spratling, Matt Soutter, Chris Barnes",
-        band: "Decrepit Sun",
-        year: 2012,
+        musician: "Children Collide",
+        band: "Children Collide",
+        year: 2011,
         image: photo71,
     }, 
     {
         id: 71,
-        musician: "Children Collide",
-        band: "Children Collide",
-        year: 2011,
+        musician: "Rich Davies, Alex Hunter, Lauren Taffe, John Guscott, Rob Smith,  ",
+        band: "Rich Davies & The Devil's Union",
+        year: 2012,
         image: photo72,
     }, 
     {
         id: 72,
-        musician: "Rich Davies & The Devil's Union",
-        band: "Rich Davies & The Devil's Union",
-        year: 2012,
+        musician: "Sam Cromack, Jennifer Boyce, Paul Furness, Dean Hanson & Daniel Hanson",
+        band: "Ball Park Music",
+        year: 2011,
         image: photo73,
     }, 
     {
         id: 73,
-        musician: "Ball Park Music",
-        band: "Ball Park Music",
-        year: 2011,
-        image: photo74,
-    }, 
-    {
-        id: 74,
         musician: "Kate Griffin with Scott McMicken, Toby Leaman, Zach Miller, Eric Slick, Frank McElroy & Michael Libramento",
         band: "Dr.Dog",
         year: 2008,
-        image: photo75,
+        image: photo74,
     } ,
     ]
 

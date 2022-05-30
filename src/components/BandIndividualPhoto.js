@@ -10,11 +10,12 @@ const BandIndividualPhoto = (props) => {
 
     return(
         <div>
-        <Header />
-         <div className="pics">
-          <img src={ bandPhotos[id].image } style={{ width: '50%', alignSelf: 'center' }} />
-            <p className="details">{ bandPhotos[id].musician } / { bandPhotos[id].band }</p>
-          </div>
+          <Header />
+            <div className="largeImage">
+              <h1 className="details">{ bandPhotos[id].band }</h1>
+              <h3> { bandPhotos[id].musician } </h3>
+              <img src={ bandPhotos[id].image } style={{ width: '100%', padding: 35}} />
+            </div>
         </div>
     )
 }

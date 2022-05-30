@@ -1,9 +1,9 @@
 import React from 'react';
 import '../css/gallery.css';
 import { Link } from 'react-router-dom' 
-import bandPhotos from './dbBandPhotos';
+import featurePhotos from './FeatureGalleryDb';
 
-const BandPhotosGallery = () => {
+const FeaturePhotosGallery = () => {
 
     const friendlyId = (p) => {
         return `${ p.id }-${ p.band }`.replace(/ /g, '-').toLowerCase() 
@@ -13,10 +13,10 @@ const BandPhotosGallery = () => {
         <>
         
         <div className="gallery">
-            {bandPhotos.map((photo, index) => {
+            {featurePhotos.map((photo, index) => {
                 return(                
                     <div className="pics" key={ index }>
-                    <Link to ={ `/band-photos/${friendlyId(photo)}` }>
+                    <Link to ={ `/live-music/${friendlyId(photo)}` }>
                         <img src={photo.image} style={{ width: '100%'}} />
                         <p className="details">{ photo.band }</p>
                     </Link>
@@ -31,5 +31,4 @@ const BandPhotosGallery = () => {
 
 }
 
-export default BandPhotosGallery;
-
+export default FeaturePhotosGallery;

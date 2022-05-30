@@ -7,14 +7,14 @@ import Header from './Header';
 const LiveIndividualPhoto = (props) => {
   const params = useParams()
   const id = Number(params.id.split('-')[0]);
-    console.log(livePhotos);
 
     return(
         <div>
-        <Header />
-         <div className="pics"> 
-          <img src={ livePhotos[id].image } style={{ width: '75%' }} />
-            <p className="details">{ livePhotos[id].musician } / { livePhotos[id].band }</p>
+          <Header />
+          <div className="largeImage"> 
+            <h1 className="details">{ livePhotos[id].musician } / { livePhotos[id].band } ({ livePhotos[id].year })</h1>
+            <h3> { livePhotos[id].venue } </h3> 
+            <img src={ livePhotos[id].image } style={{ width: '100%', padding: 35  }} />
           </div>
         </div>
     )

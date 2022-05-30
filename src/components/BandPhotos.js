@@ -6,8 +6,9 @@ class BandPhotos extends Component {
     render() {
         return(
             <div>
-            <Header />
-            <BandPhotosGallery />
+                <Header />
+                <h1>Band photos by Kate Griffin</h1>
+                <BandPhotosGallery />
             </div>
         );
     }
