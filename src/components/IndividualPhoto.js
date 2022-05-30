@@ -1,10 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import livePhotos from 'LiveMusicGallery';
+import livePhotos from './LiveMusicDb';
+
 
 const IndividualPhoto = (props) => {
   const params = useParams()
-  const id = params.id.split('-')[0].toString();
+  const id = Number(params.id.split('-')[0]);
+    console.log(livePhotos);
 
     return(
         <div>

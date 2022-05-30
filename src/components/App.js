@@ -9,6 +9,8 @@ import '../css/App.css';
 
 import LiveMusic from './LiveMusic';
 import BandPhotos from './BandPhotos';
+import IndividualPhoto from './IndividualPhoto';
+
 
 class Home extends Component {
   constructor(props) {
@@ -17,10 +19,9 @@ class Home extends Component {
     }
   }
 
-  function() {
+  render() {
     return(
       <div>
-        Home
       </div>
     )
   };
@@ -38,7 +39,11 @@ export default function App() {
         <Routes>
           <Route exact path="/" element={<Home />}/>
           <Route path="/live-music" element={<LiveMusic />}/>
+          <Route path="/live-music/:id" element={<IndividualPhoto />}/>
+
           <Route path="/band-photos" element={<BandPhotos />}/>
+          <Route path="/band-photos/:id" element={<IndividualPhoto />}/>
+
          </Routes>
       </div>
     </Router>

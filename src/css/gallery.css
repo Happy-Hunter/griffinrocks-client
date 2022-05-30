@@ -26,8 +26,14 @@
 
 .gallery .details {
     position: absolute;
-    bottom: 0;
-    background-color: white;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    left: 10px;
+    bottom: 1px;
+    background-color: #ED174B;
+    opacity: 0.75;
+    /* border: 0.5px solid #ED174B; */
     display: none
 }
 

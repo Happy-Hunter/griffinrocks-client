@@ -1,0 +1,22 @@
+body {
+    background: #303030;
+    color: #999;
+}
+
+a:hover {
+    color: #ED174B;
+}
+
+a:visited {
+    color: #999;
+  }
+
+  /* {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100%',
+    color: '#ffffff',
+    backgroundColor: `rgba(0,0,0,${ props.opacity == null && '0'})`,
+    WebkitFilter: 'blur(0px) saturate(2)'
+} */
