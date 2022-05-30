@@ -18,7 +18,7 @@ const LiveMusicGallery = () => {
                     
                     <div className="pics" key={ index }>
                     <Link to ={ `/live-music/${friendlyId(photo)}` }>
-                        <img src={ photo.image } style={{ width: '100%' }} />
+                        <img src={ photo.image } style={{ width: '100%' }} alt={ photo.band } />
                         <p className="details">{ photo.band }</p>
                     </Link>
                     </div>

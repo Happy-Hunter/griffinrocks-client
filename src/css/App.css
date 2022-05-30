@@ -67,7 +67,7 @@ a:visited {
     margin: 0 1rem;
   }
 
-  .navigation-menu li:hover {
+  .navigation-menu li a:hover {
     color:#ED174B;
   }
   

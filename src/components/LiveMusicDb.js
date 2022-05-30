@@ -104,7 +104,8 @@ import photo103 from '../images/live/tom-morello-rage-against-the-machine-2008.j
 import photo104 from '../images/live/tool-melbourne-2011.jpg'
 import photo105 from '../images/live/trash-talk-2014.jpg'
 import photo106 from '../images/live/unkle-2011-melbourne.jpg'
-import photo107 from '../images/live/wolfmother-2009.jpg'
+import photo107 from '../images/live/childish-gambino-2014.jpg'
+import photo108 from '../images/live/wolfmother-2009.jpg'
 
 
     let livePhotos = [
@@ -955,14 +956,22 @@ import photo107 from '../images/live/wolfmother-2009.jpg'
         venue: "Billboard The Venue, Melbourne (AU)",
         year: 2011,
         image: photo106,
-    },  
+    },
     {
         id: 106,
+        musician: "Donald Glover",
+        band: "Childish Gambino",
+        venue: "Catani Gardens, Melbourne (AU)",
+        year: 2009,
+        image: photo107,
+    },  
+    {
+        id: 107,
         musician: "Andrew Stockdale",
         band: "Wolfmother",
         venue: "MCG, Melbourne (AU)",
         year: 2009,
-        image: photo107,
+        image: photo108,
     },  
     ]
 

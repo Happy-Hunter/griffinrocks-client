@@ -14,6 +14,7 @@ import BandIndividualPhoto from './BandIndividualPhoto';
 
 import Header from './Header'
 import FeatureGallery from './FeatureGallery';
+import Footer from './Footer';
 
 
 class Home extends Component {
@@ -26,9 +27,10 @@ class Home extends Component {
   render() {
     return(
       <div>
-      <Header />
-      <h1>An archive of music photography by Melbourne photographer Kate Griffin</h1>
-      <FeatureGallery />
+        <Header />
+        <h1>An archive of music photography by Melbourne photographer Kate Griffin</h1>
+        <FeatureGallery />
+        <Footer />
       </div>
     )
   };

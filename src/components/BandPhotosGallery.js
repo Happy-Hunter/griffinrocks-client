@@ -17,7 +17,7 @@ const BandPhotosGallery = () => {
                 return(                
                     <div className="pics" key={ index }>
                     <Link to ={ `/band-photos/${friendlyId(photo)}` }>
-                        <img src={photo.image} style={{ width: '100%'}} />
+                        <img src={ photo.image } style={{ width: '100%'}} alt={ photo.band } />
                         <p className="details">{ photo.band }</p>
                     </Link>
                     </div>

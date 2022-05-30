@@ -8,16 +8,14 @@ import {
 import { useState } from "react";
 import '../css/App.css';
 import '../css/gallery.css';
-import logo from '../logo/griffinrocks-logo1.png';
 
-export default function Navbar() {
+export default function Footer() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
     <nav className="navigation">
-      <a href="/" className="logo">
-        <img src={ logo } width="300" alt="GriffinRocks Photography logo" style={{ padding: "100px 50px 100px 50px" }} />
-      </a>
+      <p style={{ padding: "100px 50px 100px 50px" }} > All images ©Kate Griffin
+      </p>
 
       <button
         className="hamburger"
@@ -46,13 +44,7 @@ export default function Navbar() {
       >
         <ul>
           <li>
-          <Link to="/">Home</Link>
-          </li>
-          <li>
-          <Link to="/live-music">Live Music</Link>
-          </li>
-          <li>
-          <Link to="/band-photos">Band Photos</Link>
+          <p>Contact: kate@griffinrocks.com.au</p>
           </li>
         </ul>
       </div>
