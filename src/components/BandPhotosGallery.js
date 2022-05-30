@@ -6,7 +6,7 @@ import bandPhotos from './dbBandPhotos';
 const BandPhotosGallery = () => {
 
     const friendlyId = (p) => {
-        return `${ p.id }-${ p.band }`.replace(' ', '-').toLowerCase() 
+        return `${ p.id }-${ p.band }`.replace(/ /g, '-').toLowerCase() 
     };
 
     return (

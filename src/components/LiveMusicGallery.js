@@ -6,7 +6,7 @@ import livePhotos from './LiveMusicDb';
 const LiveMusicGallery = () => {
 
     const friendlyId = (p) => {
-        return `${ p.id }-${ p.band }`.replace(' ', '-').toLowerCase() 
+        return `${ p.id }-${ p.band }`.replace(/ /g, '-').toLowerCase() 
     };
 
     return (

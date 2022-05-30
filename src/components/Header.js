@@ -14,8 +14,8 @@ export default function Navbar() {
 
   return (
     <nav className="navigation">
-      <a href="/" className="brand-name">
-      <img src={ logo }/>
+      <a href="/" className="logo">
+      <img src={ logo } width="300"  alt="GriffinRocks Photography logo"/>
       </a>
 
     <p>An archive of music photography by Melbourne photographer Kate Griffin</p>
@@ -46,13 +46,13 @@ export default function Navbar() {
         }
       >
         <ul>
-          <li>
+          <li className="navLinks">
           <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="navLinks">
           <Link to="/live-music">Live Music</Link>
           </li>
-          <li>
+          <li className="navLinks">
           <Link to="/band-photos">Band Photos</Link>
           </li>
         </ul>

@@ -9,7 +9,8 @@ import '../css/App.css';
 
 import LiveMusic from './LiveMusic';
 import BandPhotos from './BandPhotos';
-import IndividualPhoto from './IndividualPhoto';
+import LiveIndividualPhoto from './LiveIndividualPhoto';
+import BandIndividualPhoto from './BandIndividualPhoto';
 
 import Header from './Header'
 
@@ -39,10 +40,10 @@ export default function App() {
         <Routes>
           <Route exact path="/" element={<Home />}/>
           <Route path="/live-music" element={<LiveMusic />}/>
-          <Route path="/live-music/:id" element={<IndividualPhoto />}/>
+          <Route path="/live-music/:id" element={<LiveIndividualPhoto />}/>
 
           <Route path="/band-photos" element={<BandPhotos />}/>
-          <Route path="/band-photos/:id" element={<IndividualPhoto />}/>
+          <Route path="/band-photos/:id" element={<BandIndividualPhoto />}/>
 
          </Routes>
       </div>
